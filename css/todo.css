@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titleSection{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleSection h2{
+  font-size: 40px;
+}
+
+.inputSection{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: rgba(253, 242, 242, 0.751);
+}
+
+#inputEL{
+  width: 50%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+}
+
+#dateEL{
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.341);
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+  
+}
+
+.add{
+  height: 40px;
+  width: 80px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: lightcoral;
+  transition: background-color 0.5s;
+  transition: colour 0.5s;
+}
+
+.add:hover{
+  background-color: rgba(240, 128, 128, 0.337);
+  color: rgba(0, 0, 0, 0.537);
+}
+
+/* .listItems{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.listItems p{
+  background-color: white;
+  width: 50%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  border: none;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+  border-radius: 10px ;
+  overflow: hidden;
+}
+
+.listItems p:hover{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.399);
+
+} 
+
+.deletebtn{
+  height: 60px;
+  width: 60px;
+  border: none;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  background-color: lightcoral;
+  border-radius: 0 10px 10px 0;
+  transition: background-color 0.5s;
+  transition: colour 0.5s;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.deletebtn:hover{
+  background-color: rgba(240, 128, 128, 0.337);
+  color: rgba(0, 0, 0, 0.537);
+}
+*/
+
+.girditems{
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 70% 20% 10%;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-right: 40px;
+  
+}
+
+.girditems div{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.girditems button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  background-color: lightcoral;
+  border-radius:10px ;
+  transition: background-color 0.5s;
+  transition: colour 0.5s;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.girditems button:hover{
+  background-color: rgba(240, 128, 128, 0.337);
+  color: rgba(0, 0, 0, 0.537);
+}
